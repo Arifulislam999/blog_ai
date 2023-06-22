@@ -27,7 +27,7 @@ const UserProfile = () => {
         activity and its profile page.
       </p>
       <div className="mt-5 flex justify-center flex-wrap">
-        {posts.map((post, index) => (
+        {posts?.map((post, index) => (
           <ProfileCart posts={post} key={index} />
         ))}
       </div>
