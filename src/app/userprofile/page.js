@@ -24,7 +24,7 @@ const UserProfile = () => {
         <span className="text-red-400 font-bold font-mono">
           {captilize(searchName)}
         </span>{" "}
-        activity and its profile page.
+        activity and its profile page.!
       </p>
       <div className="mt-5 flex justify-center flex-wrap">
         {posts?.map((post, index) => (
